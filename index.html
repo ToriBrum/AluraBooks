@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alura Books</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 </head>
 <body>
     <header class="cabecalho">
@@ -63,16 +63,24 @@
                 <div class="swiper-slide"><img src="/assets/Portugol.svg" alt="Livro sobre portugol"></div>
                 <div class="swiper-slide"><img src="/assets/Acessibilidade.svg" alt="livro sobre acessibilidade"></div>
             </div>
-        <div class="card">
-            <div class="card__descricao">
-                <div class="descricao">
-                    <h3 class="descricao__titulo">Talvez você se interesse por</h3>
-                    <h2 class="decricao__titulo__livro">Angular 11 e Firebase</h2>
-                    <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+            <div class="card">
+                <!-- 1ª linha -->
+                <div class="card__descrição">
+                    <!-- 1ª coluna -->
+                    <div class="descrição">
+                        <h3 class="descrição__titulo">Talvez você também se interesse por...</h3>
+                        <h2 class="descrição__titulo-livro">Angular 11 e Firebase</h2>
+                        <p class="descrição__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                    </div>
+                    <!-- 2ª coluna -->
+                    <img src="assets/Angular.svg" class="descrição__imagem">
+                </div>
+                <div class="card__botões">
+                    <ul class="botões">
+                        
+                    </ul>
                 </div>
             </div>
-            <img src="./assets/Angular.svg" alt="" class="descricao__imagem">
-        </div>
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
